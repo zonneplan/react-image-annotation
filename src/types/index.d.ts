@@ -1,4 +1,4 @@
-declare module "react-image-annotation" {
+declare module "@zonneplan/react-image-annotation" {
   export interface IGeometry {
     type: string;
     x?: number;
