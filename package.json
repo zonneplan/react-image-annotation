@@ -1,6 +1,6 @@
 {
   "name": "@zonneplan/react-image-annotation",
-  "version": "0.9.11",
+  "version": "0.9.12",
   "description": "react-image-annotation React component",
   "author": "Arian Allenson Valdez <arianallensonv@gmail.com> (http://arianv.com/)",
   "main": "lib/index.js",
@@ -28,7 +28,7 @@
   },
   "peerDependencies": {
     "prop-types": "^15.6.0",
-    "react": "^17",
+    "react": "^17||^18",
     "react-dom": ">=0.14"
   },
   "devDependencies": {
