@@ -15,7 +15,7 @@ const Container = styled.div`
   &:hover ${Overlay} {
     opacity: 1;
   }
-  touch-action: ${(props) => (props.allowTouch ? "pinch-zoom" : "auto")};
+  touch-action: ${(props) => (props.$allowTouch ? "pinch-zoom" : "auto")};
 `
 
 const Img = styled.img`
@@ -253,7 +253,7 @@ export default compose(
         ref={isMouseHovering.innerRef}
         onMouseLeave={this.onTargetMouseLeave}
         onTouchCancel={this.onTargetTouchLeave}
-        allowTouch={allowTouch}
+        $allowTouch={allowTouch}
       >
         <Img
           className={props.className}

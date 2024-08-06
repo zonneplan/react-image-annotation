@@ -24,7 +24,7 @@ const Items = styled.div`
 const Item = styled.div`
   display: table-cell;
   padding: 16px 0;
-  ${props => props.grow && `
+  ${props => props.$grow && `
     width: 100%;
   `}
 
@@ -50,7 +50,7 @@ const Title = styled(Link)`
 export default (props) => (
   <Header>
     <Items>
-      <Item grow>
+      <Item $grow>
         <Title to='/'>
           {props.title}
         </Title>

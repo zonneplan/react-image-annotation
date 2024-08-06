@@ -24,7 +24,7 @@
     "test:watch": "nwb test-react --server"
   },
   "dependencies": {
-    "styled-components": "^5.3.2"
+    "styled-components": "^6.1.12"
   },
   "peerDependencies": {
     "prop-types": "^15.6.0",

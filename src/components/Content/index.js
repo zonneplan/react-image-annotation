@@ -26,7 +26,6 @@ function Content (props) {
         ...props.style
       }}
       className={props.className}
-      geometry={geometry}
     >
       {props.annotation.data && props.annotation.data.text}
     </Container>
